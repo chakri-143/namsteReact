@@ -1,0 +1,21 @@
+{
+  "name": "chakri",
+  "version": "1.0.0",
+  "description": "",
+
+  "scripts": {
+    "test": "jest",
+    "build":"parcel build index.html",
+    "start":"parcel index.html"
+  },
+  "author": "chakri",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
